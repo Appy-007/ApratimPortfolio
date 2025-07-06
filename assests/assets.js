@@ -35,7 +35,15 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
-import apratim_portfolio_logo from './Apratim_portfolio_img.png'
+import apratim_portfolio_logo from './Apratim_portfolio_img.png';
+import profile_pic from './profile-pic.png'
+import about_me_pic from './about-me-pic.jpg'
+import nextjs from './Nextjs.jpg'
+import react from './reactjs.png'
+import nodejs from './nodejsicon.png'
+import typescript from './typescripticon.png'
+import mongodbicon from './mongodbicon.png'
+
 
 export const assets = {
     user_image,
@@ -75,7 +83,14 @@ export const assets = {
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
-    apratim_portfolio_logo
+    apratim_portfolio_logo,
+    profile_pic,
+    about_me_pic,
+    nextjs,
+    react,
+    nodejs,
+    typescript,
+    mongodbicon,
 };
 
 export const workData = [

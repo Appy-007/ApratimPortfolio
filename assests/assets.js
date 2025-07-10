@@ -43,6 +43,8 @@ import react from './reactjs.png'
 import nodejs from './nodejsicon.png'
 import typescript from './typescripticon.png'
 import mongodbicon from './mongodbicon.png'
+import dbicon from './dbicon.png'
+import codingprofileicon from './codingprofileicon.png'
 
 
 export const assets = {
@@ -91,6 +93,8 @@ export const assets = {
     nodejs,
     typescript,
     mongodbicon,
+    dbicon,
+    codingprofileicon
 };
 
 export const workData = [

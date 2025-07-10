@@ -46,8 +46,8 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#workExperince" className="font-Ovo">
-              Work Experience
+            <a href="#skills" className="font-Ovo">
+              My Skills
             </a>
           </li>
           <li>

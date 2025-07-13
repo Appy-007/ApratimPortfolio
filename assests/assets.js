@@ -45,6 +45,9 @@ import typescript from './typescripticon.png'
 import mongodbicon from './mongodbicon.png'
 import dbicon from './dbicon.png'
 import codingprofileicon from './codingprofileicon.png'
+import connecticon from './connect.png'
+import learnzicon from './learnZ.png'
+import nextjsauthicon from './next-js-auth.png'
 
 
 export const assets = {
@@ -94,7 +97,10 @@ export const assets = {
     typescript,
     mongodbicon,
     dbicon,
-    codingprofileicon
+    codingprofileicon,
+    nextjsauthicon,
+    connecticon,
+    learnzicon,
 };
 
 export const workData = [

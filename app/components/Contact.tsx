@@ -37,7 +37,7 @@ export default function Contact() {
 
   return (
     <>
-      <div id="contact" className="flex flex-col items-center mb-20">
+      <div id="contact" className="scroll-mt-20 flex flex-col items-center mb-20">
         <p>Connect With Me</p>
         <h1 className="text-4xl mb-4">Get In Touch</h1>
         <p className="max-md:px-10 max-sm:font-xs text-center">

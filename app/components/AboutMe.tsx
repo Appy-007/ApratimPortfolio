@@ -35,13 +35,13 @@ export default function AboutMe(){
                 </div>
                 <p className="text-xs pb-2 max-lg:px-5">Technologies I use..</p>
                 <div className="flex flex-wrap justify-center  gap-2 max-lg:px-5">
-                    <Image src={assets.nextjs} alt="tools_img" className="w-10 border border-zinc-700 p-2 rounded-md"/>
-                    <Image src={assets.react} alt="tools_img" className="w-10 border border-zinc-700 p-2 rounded-md"/>
-                    <Image src={assets.mongodbicon} alt="tools_img" className="w-10 border border-zinc-700 p-2 rounded-md"/>
-                    <Image src={assets.nodejs} alt="tools_img" className="w-10 border border-zinc-700 p-2 rounded-md"/>
-                    <Image src={assets.typescript} alt="tools_img" className="w-10 border border-zinc-700  rounded-md"/>
-                    <Image src={assets.git} alt="tools_img" className="w-10 border border-zinc-700 p-2 rounded-md"/>
-                    <Image src={assets.vscode} alt="tools_img" className="w-10 border border-zinc-700 p-2 rounded-md"/>
+                    <Image src={assets.nextjs} alt="tools_img" className="w-10 border border-zinc-700 p-2 rounded-md hover:translate-y-1 duration-500"/>
+                    <Image src={assets.react} alt="tools_img" className="w-10 border border-zinc-700 p-2 rounded-md hover:translate-y-1 duration-500"/>
+                    <Image src={assets.mongodbicon} alt="tools_img" className="w-10 border border-zinc-700 p-2 rounded-md hover:translate-y-1 duration-500"/>
+                    <Image src={assets.nodejs} alt="tools_img" className="w-10 border border-zinc-700 p-2 rounded-md hover:translate-y-1 duration-500"/>
+                    <Image src={assets.typescript} alt="tools_img" className="w-10 border border-zinc-700  rounded-md hover:translate-y-1 duration-500"/>
+                    <Image src={assets.git} alt="tools_img" className="w-10 border border-zinc-700 p-2 rounded-md hover:translate-y-1 duration-500"/>
+                    <Image src={assets.vscode} alt="tools_img" className="w-10 border border-zinc-700 p-2 rounded-md hover:translate-y-1 duration-500"/>
 
                 </div>
                 </div>

@@ -11,7 +11,7 @@ export default function HomeComponent(){
            <p className="max-md:px-5 text-center">I am currently working as MERN stack developer</p>
            <div className="flex flexx-col sm:flex-row items-center  gap-4">
             <a href="#contact" className="rounded-full px-1 md:px-4 py-1 md:py-2 bg-black text-white border border-white text-center flex items-center gap-2 text-xs nd:text-sm">Connect with me <Image src={assets.right_arrow} alt="arrow_icon" className="w-3"/></a>
-            <a className="rounded-full px-1 md:px-4 py-1 md:py-2 border border-black  text-center flex items-center gap-2  text-xs nd:text-sm cursor-pointer">My resume <Image src={assets.download_icon} alt="download_icon" className="w-3"/></a>
+            <a href="./resume.pdf" download={true} className="rounded-full px-1 md:px-4 py-1 md:py-2 border border-black  text-center flex items-center gap-2  text-xs nd:text-sm cursor-pointer">  My resume <Image src={assets.download_icon} alt="download_icon" className="w-3"/></a>
            </div>
         </div>
         </>

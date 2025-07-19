@@ -47,7 +47,7 @@ export default function Projects() {
   }
   return (
     <>
-      <div id="projects" className="flex flex-col items-center mb-20 ">
+      <div id="projects" className="scroll-mt-20 flex flex-col items-center mb-20 ">
         <h1 className="text-4xl">Projects</h1>
         <div className="flex gap-4 w-full justify-center mt-8 flex-wrap">
           {ProjectsArr.map((project) => (

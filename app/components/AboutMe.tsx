@@ -22,7 +22,7 @@ export default function AboutMe(){
     ]
     return(
         <>
-        <div id="aboutMe" className="flex flex-col items-center mb-20">
+        <div id="aboutMe" className="scroll-mt-20 flex flex-col items-center mb-20">
             <h4 className="text-center px-5 ">Introduction</h4>
             <h1 className="text-center px-5 text-4xl">About Me</h1>
             <div className="flex flex-col lg:flex-row pt-10 lg:px-10 justify-center gap-2">

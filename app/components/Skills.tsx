@@ -26,7 +26,7 @@ export default function Skills(){
     ]
     return (
         <>
-        <div id='skills' className="flex flex-col items-center mb-20 ">
+        <div id='skills' className="scroll-mt-20 flex flex-col items-center mb-20 ">
             <h1 className="text-4xl">My Skills</h1>
             <div className="flex gap-2 w-full justify-center mt-8 flex-wrap">
                 {skills.map((item)=><SkillItem key={item.title} title={item.title} icon={item.icon} skillitems={item.skillitems} />)}

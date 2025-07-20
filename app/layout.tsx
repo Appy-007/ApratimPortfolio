@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
+import { ThemeContextProvider } from "./context/themecontext";
 
 const outfit = Outfit({
   weight:['400','500','600','700'],
@@ -25,9 +26,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${outfit.className} ${ovo.className} antialiased`}
+        className={`${outfit.className} ${ovo.className} dark:bg-darkTheme dark:text-white antialiased`}
       >
+        <ThemeContextProvider>
         {children}
+        </ThemeContextProvider>
       </body>
     </html>
   );

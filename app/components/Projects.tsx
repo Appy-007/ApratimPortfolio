@@ -36,7 +36,6 @@ export default function Projects() {
   const [showModal, setShowModal] = useState<boolean>(false);
   const [activeProject,setActiveProject]=useState<string>('')
   const handleProjectClick = (name: string) => {
-    console.log("Clicked", name);
     setShowModal(true);
     setActiveProject(name)
   };
@@ -60,7 +59,7 @@ export default function Projects() {
             />
           ))}
         </div>
-         <a href="https://github.com/Appy-007?tab=repositories" target="_blank" className="rounded-full px-1 md:px-4 mt-4 py-1 md:py-2 border border-black  text-center flex items-center cursor-pointer max-md:text-sm hover:bg-black hover:text-white">Show More...</a>
+         <a href="https://github.com/Appy-007?tab=repositories" target="_blank" className="rounded-full px-1 md:px-4 mt-4 py-1 md:py-2 border border-black  text-center flex items-center cursor-pointer max-md:text-sm hover:bg-black dark:hover:bg-darkHover dark:border-white hover:text-white">Show More...</a>
       </div>
       <div>
         {showModal && activeProject.length >0 && ProjectsArr.filter((project)=>project.name === activeProject).map((curproject)=><ProjectModal key={curproject.name} actvproject={curproject} onClose={handleModalClose}/>) }

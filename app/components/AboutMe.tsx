@@ -1,3 +1,4 @@
+
 import { assets } from "@/assests/assets";
 import Image from "next/image";
 import Info from "./Info";
@@ -25,8 +26,8 @@ export default function AboutMe(){
         <div id="aboutMe" className="scroll-mt-20 flex flex-col items-center mb-20">
             <h4 className="text-center px-5 ">Introduction</h4>
             <h1 className="text-center px-5 text-4xl">About Me</h1>
-            <div className="flex flex-col lg:flex-row pt-10 lg:px-10 justify-center gap-2">
-                <Image src={assets.about_me_pic} alt='About me pic' className="w-fit lg:w-1/3 "/>
+            <div className="flex flex-col lg:flex-row pt-10 lg:px-18 max-lg:items-center justify-center gap-6 ">
+                <Image src={assets.aboutmedark} alt='About me pic' className="w-60 md:w-80 lg:w-1/3 rounded-lg "/>
                 <div className="w-full lg:w-2/3  lg:pr-20">
                 <p className="pb-4 max-lg:text-center max-lg:px-10">Hello,I have taken my first step into the technical world as a full stack developer at a software company at Kolkata. I am a recent graduate ,completed B.Tech in IT on 2025 with a CGPA of 9.49 out of 10. My hobbies include watching web series and the three favourite things in my life : football , Real Madrid and my idol Cristiano Ronaldo !!</p>
                 <div className="flex flex-col max-lg:items-center max-lg:gap-6 lg:flex-row gap-2 pb-6">

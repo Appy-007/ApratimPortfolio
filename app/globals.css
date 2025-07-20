@@ -1,5 +1,24 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-darkTheme: #11001F;
+  --color-lightHover:#fcf4ff;
+  --color-darkHover:#2a004a;
+  --font-Ovo:"Ovo","serif";
+  --font-Outfit:"Outfit", "sans-serif";
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+.dark input:-webkit-autofill,
+.dark input:-webkit-autofill:hover,
+.dark input:-webkit-autofill:focus,
+.dark input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #ffffff !important;
+  box-shadow: 0 0 0px 1000px #2a004a inset !important;
 }

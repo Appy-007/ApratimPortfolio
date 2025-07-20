@@ -5,7 +5,7 @@ export default function Footer(){
             <div>
                 <p className="text-gray-600 font-bold">Created by: Apratim @2025</p>
             </div>
-            <div className="flex max-sm:gap-2 max-sm:pb-4 gap-4 text-sm text-gray-600">
+            <div className="flex max-sm:gap-2 max-sm:pb-4 gap-4 text-sm text-gray-600 dark:text-gray-400">
                 <p> <a href="https://github.com/Appy-007" target="_blank">Github</a></p>
                 <p><a href="https://leetcode.com/u/Apratim07/" target="_blank">LeetCode</a></p>
                 <p><a href="https://www.geeksforgeeks.org/user/apratimraha23/" target="_blank">GFG</a></p>

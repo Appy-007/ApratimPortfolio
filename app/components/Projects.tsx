@@ -36,7 +36,6 @@ export default function Projects() {
   const [showModal, setShowModal] = useState<boolean>(false);
   const [activeProject,setActiveProject]=useState<string>('')
   const handleProjectClick = (name: string) => {
-    console.log("Clicked", name);
     setShowModal(true);
     setActiveProject(name)
   };

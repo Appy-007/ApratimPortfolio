@@ -5,7 +5,6 @@ import { useContext, useRef } from "react";
 import ThemeContext from "../context/themecontext";
 export default function Navbar() {
     const themeContext=useContext(ThemeContext)
-    console.log(themeContext.theme)
     const sidebarRef=useRef<HTMLUListElement|null>(null)
 
     const isLightMode : boolean= themeContext.theme === 'light'
@@ -126,6 +125,9 @@ export default function Navbar() {
             </li>
             <li onClick={closeMobileNav}>
               <a href="#projects">Projects</a>
+            </li>
+            <li onClick={closeMobileNav}>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>

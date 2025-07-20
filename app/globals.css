@@ -13,3 +13,12 @@
 html {
   scroll-behavior: smooth;
 }
+
+.dark input:-webkit-autofill,
+.dark input:-webkit-autofill:hover,
+.dark input:-webkit-autofill:focus,
+.dark input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #ffffff !important;
+  box-shadow: 0 0 0px 1000px #2a004a inset !important;
+}

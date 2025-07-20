@@ -24,7 +24,7 @@ export default function Contact() {
 
     if (data.success) {
       setResult("Form Submitted Successfully");
-      event.currentTarget.reset();
+      event.currentTarget?.reset();
     } else {
       console.log("Error", data);
       setResult(data.message);
@@ -57,13 +57,13 @@ export default function Contact() {
               type="text"
               placeholder="Enter your name"
               name="name"
-              className="border border-black outline-none py-2 px-4 max-sm:px-2 rounded-md w-1/2 max-sm:text-xs text-sm"
+              className="border border-black dark:border-white dark:bg-darkHover outline-none py-2 px-4 max-sm:px-2 rounded-md w-1/2 max-sm:text-xs text-sm"
             />
             <input
               type="email"
               placeholder="Enter your email"
               name="email"
-              className="border border-black outline-none py-2 px-4 max-sm:px-2 rounded-md w-1/2 max-sm:text-xs text-sm"
+              className="border border-black dark:border-white dark:bg-darkHover outline-none py-2 px-4 max-sm:px-2 rounded-md w-1/2 max-sm:text-xs text-sm"
             />
           </div>
           <div className="mt-10 w-full">
@@ -71,10 +71,10 @@ export default function Contact() {
               rows={6}
               placeholder="Enter your message"
               name="message"
-              className="border border-black outline-none py-2 px-4 max-sm:px-2 max-sm:text-sx text-sm rounded-md w-full"
+              className="border border-black dark:border-white dark:bg-darkHover outline-none py-2 px-4 max-sm:px-2 max-sm:text-sx text-sm rounded-md w-full"
             />
           </div>
-          <button className="text-white hover:text-black mt-4 bg-black hover:bg-white border border-black rounded-4xl px-4 py-2 cursor-pointer flex items-center justify-between gap-2 text-sm">
+          <button className="text-white bg-black  hover:text-black hover:bg-white dark:bg-darkTheme dark:hover:text-white mt-4  dark:hover:bg-darkHover border border-black dark:border-white rounded-4xl px-4 py-2 cursor-pointer flex items-center justify-between gap-2 text-sm">
             Submit now{" "}
             <Image src={assets.right_arrow} className="w-4" alt="right_arrow" />{" "}
           </button>

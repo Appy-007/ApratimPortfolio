@@ -7,9 +7,11 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 
+
 export default function Home() {
   return (
     <>
+    
     <Navbar/>
     <HomeComponent/>
     <AboutMe/>
@@ -17,6 +19,7 @@ export default function Home() {
     <Projects/>
     <Contact/>
     <Footer/>
+    
     </>
   );
 }

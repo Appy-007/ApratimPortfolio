@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-darkTheme: #11001F;
+  --color-lightHover:#fcf4ff;
+  --color-darkHover:#2a004a;
+  --font-Ovo:"Ovo","serif";
+  --font-Outfit:"Outfit", "sans-serif";
+}
+
 html {
   scroll-behavior: smooth;
 }

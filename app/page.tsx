@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import WorkExperience from "./components/WorkExperience";
 
 
 
@@ -15,6 +16,7 @@ export default function Home() {
     <Navbar/>
     <HomeComponent/>
     <AboutMe/>
+    <WorkExperience/>
     <Skills/>
     <Projects/>
     <Contact/>

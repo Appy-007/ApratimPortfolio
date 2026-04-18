@@ -23,7 +23,7 @@ export default function HomeComponent() {
           Full Stack Developer from Kolkata
         </p>
         <p className="max-md:px-5 text-center">
-          I am currently working as MERN stack developer
+          Building cool stuff on the web
         </p>
         <div className="flex flexx-col sm:flex-row items-center  gap-4">
           <a

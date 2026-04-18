@@ -48,6 +48,8 @@ import connecticon from './connect.png'
 import learnzicon from './learnZ.png'
 import nextjsauthicon from './next-js-auth.png'
 import aboutmedark from './about-me-dark.jpg'
+import ticketManger from './ticket-manager.png'
+import scribbleDraw from './scribble-draw.png'
 
 
 export const assets = {
@@ -100,6 +102,8 @@ export const assets = {
     nextjsauthicon,
     connecticon,
     learnzicon,
+    ticketManger,
+    scribbleDraw
 };
 
 export const workData = [

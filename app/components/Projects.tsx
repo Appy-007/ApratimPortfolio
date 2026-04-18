@@ -6,7 +6,7 @@ import ProjectModal from "./ProjectModal";
 const ProjectsArr = [
   {
     name: "Scribble Draw",
-    subtitle: "Multiplayer Doodle game",
+    subtitle: "Multiplayer Doodle game.",
     description: "Create your own room or join an existing room and play with your freinds ",
     techstacks: "Reactjs || Nestjs || Web Socket",
     project_link: "https://colabdraw-j6uk.onrender.com/",

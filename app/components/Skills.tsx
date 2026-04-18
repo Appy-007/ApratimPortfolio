@@ -5,22 +5,22 @@ export default function Skills(){
         {
             icon:assets.graphics_icon,
             title:'Frontend',
-            skillitems:['Nextjs','Reactjs','JavaScript','TypeScript','Tailwind','HTML']
+            skillitems:['Nextjs','Reactjs','JavaScript','TypeScript','Shadcn / Tailwind','HTML']
         },
         {
             icon:assets.web_icon,
             title:'Backend',
-            skillitems:['Nestjs','Nodejs','Express','REST API','Web Sockets']
+            skillitems:['Nestjs','Nodejs','Express','REST API','Web Socket']
         },
         {
             icon:assets.dbicon,
             title:'Database',
-            skillitems:['MongoDB','Postgres',]
+            skillitems:['MongoDB','Postgres','Prisma','Mongoose']
         },
         {
             icon:assets.codingprofileicon,
-            title:'Coding Platforms',
-            skillitems:['Leetcode','GFG','CodeStudio',]
+            title:'Others',
+            skillitems:['Shopify Hydrogen','Remix','Shopify Custom Storefront',]
         },
 
     ]
